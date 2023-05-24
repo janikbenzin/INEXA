@@ -1,0 +1,232 @@
+{
+ "ocel:global-log": {
+  "OCEL_VERSION": "0.1",
+  "OCEL_ORDERING": "timestamp",
+  "OCEL_ATTN": [],
+  "OCEL_OBJT": [
+   "workflow:client",
+   "workflow:bank",
+   "workflow:lc:finalize account opening"
+  ]
+ },
+ "ocel:global-event": {
+  "ocel:activity": "__INVALID__"
+ },
+ "ocel:global-object": {
+  "ocel:type": "__INVALID__"
+ },
+ "ocel:events": {
+  "dc09c": {
+   "ocel:activity": "ask for customer needs",
+   "ocel:timestamp": "2023-05-19T10:42:49.575+01:00",
+   "ocel:omap": [
+    "a0287",
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "d07f9": {
+   "ocel:activity": "check if customer is client",
+   "ocel:timestamp": "2023-05-19T10:43:36.575+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "bbf66": {
+   "ocel:activity": "check client\u2019s credit status",
+   "ocel:timestamp": "2023-05-19T10:44:25.813+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "13440": {
+   "ocel:activity": "inform client",
+   "ocel:timestamp": "2023-05-19T10:45:16.813+01:00",
+   "ocel:omap": [
+    "a0287",
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "5eb01": {
+   "ocel:activity": "check type of account to be created",
+   "ocel:timestamp": "2023-05-19T10:55:29.912+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "6168b": {
+   "ocel:activity": "click open account",
+   "ocel:timestamp": "2023-05-19T10:57:25.761+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "1f4da": {
+   "ocel:activity": "insert account meta data",
+   "ocel:timestamp": "2023-05-19T10:57:27.996+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "f2ea7": {
+   "ocel:activity": "check account conditions",
+   "ocel:timestamp": "2023-05-19T10:58:03.996+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "5c571": {
+   "ocel:activity": "retrieve acceptance signature",
+   "ocel:timestamp": "2023-05-19T11:58:59.996+01:00",
+   "ocel:omap": [
+    "151a3"
+   ],
+   "ocel:vmap": {}
+  },
+  "e7d46": {
+   "ocel:activity": "finalize account opening\u00a7start",
+   "ocel:timestamp": "2023-05-19T12:00:33.996+01:00",
+   "ocel:omap": [
+    "151a3",
+    "b8955"
+   ],
+   "ocel:vmap": {}
+  },
+  "f133f": {
+   "ocel:activity": "finalize account opening\u00a7on hold",
+   "ocel:timestamp": "2023-05-19T12:00:45.996+01:00",
+   "ocel:omap": [
+    "151a3",
+    "b8955"
+   ],
+   "ocel:vmap": {}
+  },
+  "d3ece": {
+   "ocel:activity": "finalize account opening\u00a7continue",
+   "ocel:timestamp": "2023-05-19T12:01:51.996+01:00",
+   "ocel:omap": [
+    "151a3",
+    "b8955"
+   ],
+   "ocel:vmap": {}
+  },
+  "1b0bf": {
+   "ocel:activity": "finalize account opening\u00a7end",
+   "ocel:timestamp": "2023-05-19T12:02:12.996+01:00",
+   "ocel:omap": [
+    "151a3",
+    "b8955"
+   ],
+   "ocel:vmap": {}
+  },
+  "43d8b": {
+   "ocel:activity": "ask for customer needs",
+   "ocel:timestamp": "2023-03-11T11:31:28.575+01:00",
+   "ocel:omap": [
+    "712k3",
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "63e06": {
+   "ocel:activity": "check if customer is client",
+   "ocel:timestamp": "2023-03-11T15:55:29.575+01:00",
+   "ocel:omap": [
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "fc983": {
+   "ocel:activity": "check client\u2019s credit status",
+   "ocel:timestamp": "2023-03-11T17:01:02.813+01:00",
+   "ocel:omap": [
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "33e3f": {
+   "ocel:activity": "inform client",
+   "ocel:timestamp": "2023-03-11T17:03:09.813+01:00",
+   "ocel:omap": [
+    "712k3",
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "1a247": {
+   "ocel:activity": "check type of account to be created",
+   "ocel:timestamp": "2023-03-11T22:00:31.912+01:00",
+   "ocel:omap": [
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "942e2": {
+   "ocel:activity": "check age",
+   "ocel:timestamp": "2023-03-11T22:00:32.761+01:00",
+   "ocel:omap": [
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "e7ee2": {
+   "ocel:activity": "reject request",
+   "ocel:timestamp": "2023-03-11T22:00:33.996+01:00",
+   "ocel:omap": [
+    "kjs81"
+   ],
+   "ocel:vmap": {}
+  },
+  "1e5ff": {
+   "ocel:activity": "finalize account opening\u00a7start",
+   "ocel:timestamp": "2023-03-11T22:01:13.996+01:00",
+   "ocel:omap": [
+    "kjs81",
+    "kud97"
+   ],
+   "ocel:vmap": {}
+  },
+  "3654f": {
+   "ocel:activity": "finalize account opening\u00a7end",
+   "ocel:timestamp": "2023-03-11T22:01:14.996+01:00",
+   "ocel:omap": [
+    "kjs81",
+    "kud97"
+   ],
+   "ocel:vmap": {}
+  }
+ },
+ "ocel:objects": {
+  "a0287": {
+   "ocel:type": "workflow:client",
+   "ocel:ovmap": {}
+  },
+  "712k3": {
+   "ocel:type": "workflow:client",
+   "ocel:ovmap": {}
+  },
+  "151a3": {
+   "ocel:type": "workflow:bank",
+   "ocel:ovmap": {}
+  },
+  "kjs81": {
+   "ocel:type": "workflow:bank",
+   "ocel:ovmap": {}
+  },
+  "b8955": {
+   "ocel:type": "workflow:lc:finalize account opening",
+   "ocel:ovmap": {}
+  },
+  "kud97": {
+   "ocel:type": "workflow:lc:finalize account opening",
+   "ocel:ovmap": {}
+  }
+ }
+}
